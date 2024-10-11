@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Angulo\Angulo\bin\Debug\net8.0\Angulo.exe
+C:\Users\Administrator\source\repos\Angulo\Angulo\bin\Debug\net8.0\Angulo.deps.json
+C:\Users\Administrator\source\repos\Angulo\Angulo\bin\Debug\net8.0\Angulo.runtimeconfig.json
+C:\Users\Administrator\source\repos\Angulo\Angulo\bin\Debug\net8.0\Angulo.dll
+C:\Users\Administrator\source\repos\Angulo\Angulo\bin\Debug\net8.0\Angulo.pdb
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.dll
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\refint\Angulo.dll
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.pdb
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\Angulo.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Angulo\Angulo\obj\Debug\net8.0\ref\Angulo.dll

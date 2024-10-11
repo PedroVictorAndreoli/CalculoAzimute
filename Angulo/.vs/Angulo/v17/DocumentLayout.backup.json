@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Angulo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\source\\repos\\angulo\\angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\source\\repos\\angulo\\angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\source\\repos\\angulo\\angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\source\\repos\\angulo\\angulo\\angulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\angulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Angulo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Angulo.cs",
+              "RelativeDocumentMoniker": "Angulo\\Angulo.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Angulo.cs",
+              "RelativeToolTip": "Angulo\\Angulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:01:26.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Poligonal.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Poligonal.cs",
+              "RelativeDocumentMoniker": "Angulo\\Poligonal.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Poligonal.cs",
+              "RelativeToolTip": "Angulo\\Poligonal.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAjwFoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:12:27.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estacao.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Estacao.cs",
+              "RelativeDocumentMoniker": "Angulo\\Estacao.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Estacao.cs",
+              "RelativeToolTip": "Angulo\\Estacao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:12:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Program.cs",
+              "RelativeDocumentMoniker": "Angulo\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Angulo\\Angulo\\Program.cs",
+              "RelativeToolTip": "Angulo\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwE8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T19:05:29.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
