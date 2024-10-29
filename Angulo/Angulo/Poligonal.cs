@@ -34,43 +34,183 @@ namespace Angulo
             }
             return soma;
         }
-        public void Inserir(Estacao novaEstacao)
+        public void Inserir()
         {
-            Estacoes.Add(novaEstacao);
-            Console.WriteLine("Estação inserida com sucesso.");
-        }
 
+            Console.Clear();
+            ImprimirCabecalho(); // Exibe o cabeçalho
 
-        public void Editar(int numeroEstacao,Estacao estacao1)
-        {
-            if (numeroEstacao < 1 || numeroEstacao > Estacoes.Count)
+            int Grau = 0;
+            int Segundo = 0;
+            int Minuto = 0;
+            int estacao = 0;
+            float Distancia = 0.0f;
+            char Deflexao = Char.Parse("O");
+
+            // Exibindo todas as instruções de entrada na tela
+            Console.Write("Grau:      ");  // Espaço adicional para alinhamento
+            Console.Write("Minuto:    ");
+            Console.WriteLine(); // Quebra de linha para organizar
+
+            Console.Write("Segundo:   ");
+            Console.Write("Distância: ");
+            Console.WriteLine(); // Quebra de linha para organizar
+
+            Console.Write("Deflexão (D/E): ");
+            Console.WriteLine(); // Quebra de linha final
+
+            ImprimirRodape();
+
+            Console.SetCursorPosition(6, 4);
+            Deflexao = 'O';
+            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau>360)
             {
-                Console.WriteLine("Número de estação inválido.");
+                Inserir();
                 return;
             }
 
-            Estacao estacao = Estacoes[numeroEstacao - 1];
-            Console.WriteLine("Editando estação número " + numeroEstacao);
-            estacao.AngEstacao = estacao1.AngEstacao;
-            estacao.Distancia = estacao1.Distancia;
-            estacao.Deflexao = estacao1.Deflexao;
-            Console.WriteLine("Estação editada com sucesso.");
+            Console.SetCursorPosition(19, 4);
+            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto>60)
+            {
+                Inserir();
+                return;
+            }
+
+            Console.SetCursorPosition(8, 5);
+            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo>60)
+            {
+                Inserir();
+                return;
+            }
+
+            Console.SetCursorPosition(22, 5);
+            while (!float.TryParse(Console.ReadLine(), out Distancia))
+            {
+                Inserir();
+                return;
+            }
+            Console.SetCursorPosition(17, 6);
+            while (Deflexao.ToString().ToUpper() != "D" && Deflexao.ToString().ToUpper() != "E")
+            {
+                Deflexao = char.ToUpper(Console.ReadKey().KeyChar);
+                Console.WriteLine(); // Pula linha após leitura
+                if (Deflexao != 'D' && Deflexao != 'E')
+                {
+                    Inserir();
+                    return;
+                }
+            }
+
+            // Limpa a tela e lista as estações inseridas
+            Console.Clear();
+            Estacoes.Add(new Estacao(new Angulo(Grau, Minuto, Segundo), Distancia, Deflexao));
+            Listar(); // Lista as estações  
+            
         }
-        public void Excluir(int numeroEstacao)
+
+
+        public void Editar()
         {
-            if (numeroEstacao < 1 || numeroEstacao > Estacoes.Count)
+            Console.Clear();
+            ImprimirCabecalho(); // Exibe o cabeçalho
+
+            int Grau = 0;
+            int Segundo = 0;
+            int Minuto = 0;
+            int estacao = 0;
+            float Distancia = 0.0f;
+            char Deflexao = Char.Parse("O");
+
+            // Exibindo todas as instruções de entrada na tela
+            Console.Write("Estacao:   ");
+            Console.Write("Grau:      ");
+            Console.WriteLine();
+            Console.Write("Minuto:    ");
+            Console.Write("Segundo:   ");
+            Console.WriteLine();
+            Console.Write("Distância:    ");
+            Console.Write("Deflexão (D/E): ");
+            Console.WriteLine();
+            ImprimirRodape();
+            Console.SetCursorPosition(8, 4);
+            while (!int.TryParse(Console.ReadLine(), out estacao) || estacao > Estacoes.Count)
+            {
+                Editar();
+                return;
+            }
+            Console.SetCursorPosition(16, 4);
+            Deflexao = 'O';
+            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau > 360)
+            {
+                Editar();
+                return;
+            }
+
+            Console.SetCursorPosition(8, 5);
+            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto > 60)
+            {
+                Editar();
+                return;
+            }
+
+            Console.SetCursorPosition(20, 5);
+            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo > 60)
+            {
+                Editar();
+                return;
+            }
+
+            Console.SetCursorPosition(11, 6);
+            while (!float.TryParse(Console.ReadLine(), out Distancia))
+            {
+                Editar();
+                return;
+            }
+            Console.SetCursorPosition(30, 6);
+            while (Deflexao.ToString().ToUpper() != "D" && Deflexao.ToString().ToUpper() != "E")
+            {
+                Deflexao = char.ToUpper(Console.ReadKey().KeyChar);
+                Console.WriteLine(); // Pula linha após leitura
+                if (Deflexao != 'D' && Deflexao != 'E')
+                {
+                    Editar();
+                    return;
+                }
+            }
+            Estacao estacao1 = new Estacao(new Angulo(Grau, Minuto, Segundo), Distancia, Deflexao);
+            Estacao estacao2 = Estacoes[estacao - 1];
+            estacao2.AngEstacao = estacao1.AngEstacao;
+            estacao2.Distancia = estacao1.Distancia;
+            estacao2.Deflexao = estacao1.Deflexao;
+            Console.Clear();
+            Listar();
+        }
+        public void Excluir()
+        {
+            Console.Clear();
+            ImprimirCabecalho();
+            Console.WriteLine("Qual a estacao deseja excluir?");
+            int estacao = 0;
+            ImprimirRodape();
+            Console.SetCursorPosition(31, 4);
+            while (!int.TryParse(Console.ReadLine(), out estacao) || estacao > Estacoes.Count)
+            {
+                Excluir();
+                return;
+            }
+            if (estacao < 1 || estacao > Estacoes.Count)
             {
                 Console.WriteLine("Número de estação inválido.");
                 return;
             }
             string confirmacao = "o";
-            while (confirmacao.ToUpper() != "S" || confirmacao.ToUpper() != "N")
+            while (confirmacao.ToUpper() != "S" && confirmacao.ToUpper() != "N")
             { 
             Console.WriteLine("Tem certeza que deseja excluir a estação? (S/N)");
             confirmacao = Console.ReadLine();
                 if (confirmacao.ToUpper() == "S")
                 {
-                    Estacoes.RemoveAt(numeroEstacao - 1);
+                    Estacoes.RemoveAt(estacao - 1);
                     Console.WriteLine("Estação excluída com sucesso.");
                 }
                 else if(confirmacao.ToUpper() == "N")
@@ -82,44 +222,31 @@ namespace Angulo
                     Console.WriteLine("Operacao Invalida");
                 }
             }
+            Listar();
         }
         public void Listar()
         {
-            int totalEstacoes = Estacoes.Count;
-            int totalPaginas = (totalEstacoes + estacoesPorPagina - 1) / estacoesPorPagina;
+
             CalcularAzimutes();
-            Console.Clear();
-            Console.WriteLine($"Engenharia Cartográfica         Sistema de Poligonais         Data: {DateTime.Now:dd/MM/yyyy}");
-            Console.WriteLine(new string('=', 100));
-            Console.WriteLine($"Poligonal: {Descricao}");
-            Console.WriteLine(new string('-', 100));
+            ImprimirCabecalho(); // Exibe o cabeçalho
             Console.WriteLine("Estação    Ângulo lido    Deflexão    Distância(m)    Azimute");
             Console.WriteLine(new string('=', 100));
-
+            int totalEstacoes = Estacoes.Count;
             for (int i = (paginaAtual - 1) * estacoesPorPagina; i < Math.Min(totalEstacoes, paginaAtual * estacoesPorPagina); i++)
             {
                 var estacao = Estacoes[i];
-                Console.WriteLine($"{i + 1:0000}       {estacao.AngEstacao.ToString()}     {estacao.Deflexao.ToString().ToUpper()}         {estacao.Distancia:F2}          {estacao.Azimute.ToString()}");
+
+                // Definindo os tamanhos de coluna
+                string estacaoStr = $"{i + 1:0000}".PadRight(11);                       // Estação (4 dígitos, alinhado à esquerda)
+                string anguloStr = estacao.AngEstacao.ToString().PadRight(15);          // Ângulo (alinhado à esquerda)
+                string deflexaoStr = estacao.Deflexao.ToString().ToUpper().PadRight(12); // Deflexão (alinhado à esquerda)
+                string distanciaStr = estacao.Distancia.ToString("F2").PadRight(16);    // Distância (alinhado à esquerda)
+                string azimuteStr = estacao.Azimute.ToString().PadRight(20);            // Azimute (alinhado à esquerda)
+
+                // Imprime a linha formatada com os valores alinhados
+                Console.WriteLine($"{estacaoStr}{anguloStr}{deflexaoStr}{distanciaStr}{azimuteStr}");
             }
-
-            Console.WriteLine(new string('=', 100));
-            Console.Write("Perímetro: ");
-            Console.ForegroundColor = ConsoleColor.Red; // Cor vermelha
-            Console.Write($"{Perimetro():F2} ");
-            Console.ResetColor(); // Resetar para a cor padrão do console
-
-            Console.WriteLine($"metros                                                             Pag.: {paginaAtual} de {totalPaginas}");
-           
-            Console.Write("<Esc> Sair ");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("<F1> Inserir ");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("<F2> Alterar ");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("<F3> Excluir ");
-            Console.ResetColor();
-            Console.WriteLine("<PgDn> Próxima Página <PgUp> Página Anterior");
-
+            ImprimirRodape();
         }
 
         public void CalcularAzimutes()
@@ -206,6 +333,62 @@ namespace Angulo
                 paginaAtual--;
                 Listar();
             }
+        }
+
+        public void Salvar(string arquivo)
+        {
+            using (StreamWriter writer = new StreamWriter(arquivo))
+            {
+                writer.WriteLine($"{Descricao};{AzGraus};{AzMinutos};{AzSegundos}");
+
+                foreach (var estacao in Estacoes)
+                {
+                    writer.WriteLine($"{estacao.AngEstacao.Graus};{estacao.AngEstacao.Minutos};{estacao.AngEstacao.Segundos};{estacao.Distancia};{estacao.Deflexao}");
+                }
+            }
+            Console.WriteLine("Dados salvos com sucesso.");
+        }
+
+        public void ImprimirCabecalho()
+        {
+            Console.Clear();
+            Console.WriteLine($"Engenharia Cartográfica         Sistema de Poligonais         Data: {DateTime.Now:dd/MM/yyyy}");
+            Console.WriteLine(new string('=', 100));
+            Console.WriteLine($"Poligonal: {Descricao}");
+            Console.WriteLine(new string('-', 100));
+        }
+
+        public void ImprimirRodape()
+        {
+            // Calcula quantas linhas estão faltando para preencher o console até o final
+            int currentLineCursor = Console.CursorTop;
+            int blankLines = Console.WindowHeight - currentLineCursor - 4; // Ajusta para garantir espaço para o rodapé
+            int totalPaginas = (Estacoes.Count + estacoesPorPagina - 1) / estacoesPorPagina; // Calcula o total de páginas
+
+            // Preenche com linhas em branco até chegar ao rodapé
+            for (int i = 0; i < blankLines; i++)
+            {
+                Console.WriteLine();
+            }
+
+            // Exibe o rodapé fixo no final da janela
+            Console.WriteLine(new string('=', 100));
+            Console.Write("Perímetro: ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write($"{Perimetro():F2} ");
+            Console.ResetColor();
+            Console.WriteLine($"metros                                                             Pag.: {paginaAtual} de {totalPaginas}");
+
+            // Opções de navegação e interação
+            Console.Write("<Esc> Sair ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("<F1> Inserir ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("<F2> Alterar ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("<F3> Excluir ");
+            Console.ResetColor();
+            Console.Write("<PgDn> Próxima Página <PgUp> Página Anterior");
         }
     }
 }
