@@ -48,48 +48,48 @@ namespace Angulo
             char Deflexao = Char.Parse("O");
 
             // Exibindo todas as instruções de entrada na tela
-            Console.Write("Grau:      ");  // Espaço adicional para alinhamento
-            Console.Write("Minuto:    ");
+            Console.Write("Grau:           ");  // Espaço adicional para alinhamento
+            Console.Write("Minuto:         ");
             Console.WriteLine(); // Quebra de linha para organizar
 
-            Console.Write("Segundo:   ");
-            Console.Write("Distância: ");
+            Console.Write("Segundo:        ");
+            Console.Write("Distância:      ");
             Console.WriteLine(); // Quebra de linha para organizar
 
-            Console.Write("Deflexão (D/E): ");
+            Console.Write("Deflexão (D/E):      ");
             Console.WriteLine(); // Quebra de linha final
 
             ImprimirRodape();
 
-            Console.SetCursorPosition(6, 4);
+            Console.SetCursorPosition(5, 4);
             Deflexao = 'O';
-            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau>360)
+            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau > 360 || Grau<0)
             {
                 Inserir();
                 return;
             }
 
-            Console.SetCursorPosition(19, 4);
-            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto>60)
+            Console.SetCursorPosition(25, 4);
+            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto>60 || Minuto < 0)
             {
                 Inserir();
                 return;
             }
 
             Console.SetCursorPosition(8, 5);
-            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo>60)
+            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo > 60 || Segundo < 0)
             {
                 Inserir();
                 return;
             }
 
-            Console.SetCursorPosition(22, 5);
-            while (!float.TryParse(Console.ReadLine(), out Distancia))
+            Console.SetCursorPosition(27, 5);
+            while (!float.TryParse(Console.ReadLine(), out Distancia) || Distancia < 0)
             {
                 Inserir();
                 return;
             }
-            Console.SetCursorPosition(17, 6);
+            Console.SetCursorPosition(15, 6);
             while (Deflexao.ToString().ToUpper() != "D" && Deflexao.ToString().ToUpper() != "E")
             {
                 Deflexao = char.ToUpper(Console.ReadKey().KeyChar);
@@ -122,51 +122,51 @@ namespace Angulo
             char Deflexao = Char.Parse("O");
 
             // Exibindo todas as instruções de entrada na tela
-            Console.Write("Estacao:   ");
-            Console.Write("Grau:      ");
+            Console.Write("Estacao:        ");
+            Console.Write("Grau:           ");
             Console.WriteLine();
-            Console.Write("Minuto:    ");
-            Console.Write("Segundo:   ");
+            Console.Write("Minuto:         ");
+            Console.Write("Segundo:        ");
             Console.WriteLine();
-            Console.Write("Distância:    ");
+            Console.Write("Distância:      ");
             Console.Write("Deflexão (D/E): ");
             Console.WriteLine();
             ImprimirRodape();
             Console.SetCursorPosition(8, 4);
-            while (!int.TryParse(Console.ReadLine(), out estacao) || estacao > Estacoes.Count)
+            while (!int.TryParse(Console.ReadLine(), out estacao) || estacao > Estacoes.Count || estacao<0)
             {
                 Editar();
                 return;
             }
-            Console.SetCursorPosition(16, 4);
+            Console.SetCursorPosition(21, 4);
             Deflexao = 'O';
-            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau > 360)
+            while (!int.TryParse(Console.ReadLine(), out Grau) || Grau > 360 || Grau < 0)
             {
                 Editar();
                 return;
             }
 
             Console.SetCursorPosition(8, 5);
-            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto > 60)
+            while (!int.TryParse(Console.ReadLine(), out Minuto) || Minuto > 60 || Minuto < 0)
             {
                 Editar();
                 return;
             }
 
-            Console.SetCursorPosition(20, 5);
-            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo > 60)
+            Console.SetCursorPosition(24, 5);
+            while (!int.TryParse(Console.ReadLine(), out Segundo) || Segundo > 60 || Segundo < 0)
             {
                 Editar();
                 return;
             }
 
-            Console.SetCursorPosition(11, 6);
-            while (!float.TryParse(Console.ReadLine(), out Distancia))
+            Console.SetCursorPosition(10, 6);
+            while (!float.TryParse(Console.ReadLine(), out Distancia) || Segundo < 0)
             {
                 Editar();
                 return;
             }
-            Console.SetCursorPosition(30, 6);
+            Console.SetCursorPosition(31, 6);
             while (Deflexao.ToString().ToUpper() != "D" && Deflexao.ToString().ToUpper() != "E")
             {
                 Deflexao = char.ToUpper(Console.ReadKey().KeyChar);
@@ -262,7 +262,7 @@ namespace Angulo
                     var anterior = Estacoes[i - 1];
                     var atual = Estacoes[i];
                     atual.Azimute = new Angulo(0, 0, 0);
-                    if(atual.Deflexao.ToString().ToUpper().Equals('D'))
+                    if(atual.Deflexao.Equals('D'))
                     {
                         atual.Azimute.Segundos = anterior.Azimute.Segundos + atual.AngEstacao.Segundos;
                         if(atual.Azimute.Segundos > 60)

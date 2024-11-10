@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,20 +48,20 @@
               "RelativeDocumentMoniker": "Angulo\\Angulo.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Angulo.cs",
               "RelativeToolTip": "Angulo\\Angulo.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:01:26.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Poligonal.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
               "RelativeDocumentMoniker": "Angulo\\Poligonal.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
               "RelativeToolTip": "Angulo\\Poligonal.cs",
-              "ViewState": "AgIAAGMBAAAAAAAAAAAwwGgBAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAWwFcBAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T17:12:27.322Z",
               "EditorCaption": ""
@@ -81,13 +81,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
               "RelativeDocumentMoniker": "Angulo\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
               "RelativeToolTip": "Angulo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T19:05:29.796Z",
               "EditorCaption": ""
