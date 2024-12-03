@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\",
+  "WorkspaceRootPath": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\meu computador\\documents\\github\\calculoazimute\\angulo\\angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\administrator\\documents\\github\\calculoazimute\\angulo\\angulo\\angulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\meu computador\\documents\\github\\calculoazimute\\angulo\\angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\poligonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\meu computador\\documents\\github\\calculoazimute\\angulo\\angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|c:\\users\\meu computador\\documents\\github\\calculoazimute\\angulo\\angulo\\angulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34DED836-D7C1-4991-91E2-D3A03006E31D}|Angulo\\Angulo.csproj|solutionrelative:angulo\\angulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,68 +26,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Angulo.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Angulo.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Angulo.cs",
               "RelativeDocumentMoniker": "Angulo\\Angulo.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Angulo.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Angulo.cs",
               "RelativeToolTip": "Angulo\\Angulo.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA8wAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:01:26.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T18:01:26.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Poligonal.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
               "RelativeDocumentMoniker": "Angulo\\Poligonal.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Poligonal.cs",
               "RelativeToolTip": "Angulo\\Poligonal.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAArwKgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAEwFcBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T17:12:27.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Estacao.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Estacao.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Estacao.cs",
               "RelativeDocumentMoniker": "Angulo\\Estacao.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Estacao.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Estacao.cs",
               "RelativeToolTip": "Angulo\\Estacao.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:12:24.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:12:24.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
               "RelativeDocumentMoniker": "Angulo\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\Documents\\GitHub\\CalculoAzimute\\Angulo\\Angulo\\Program.cs",
               "RelativeToolTip": "Angulo\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T19:05:29.796Z",
               "EditorCaption": ""

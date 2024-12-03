@@ -335,8 +335,13 @@ namespace Angulo
             }
         }
 
-        public void Salvar(string arquivo)
+        public void Salvar()
         {
+            ImprimirCabecalho();
+            Console.Write("Digite o nome do arquivo para salvar: ");
+            ImprimirRodape();
+            Console.SetCursorPosition(38, 4);
+            string arquivo = Console.ReadLine();
             using (StreamWriter writer = new StreamWriter(arquivo))
             {
                 writer.WriteLine($"{Descricao};{AzGraus};{AzMinutos};{AzSegundos}");
@@ -347,6 +352,8 @@ namespace Angulo
                 }
             }
             Console.WriteLine("Dados salvos com sucesso.");
+            Console.Clear();
+            Listar();
         }
 
         public void ImprimirCabecalho()

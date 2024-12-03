@@ -42,11 +42,9 @@ namespace Angulo
                         poligonal.PaginaAnterior();
                         break;
 
-                    case ConsoleKey.S when (keyInfo.Modifiers & ConsoleModifiers.Control) != 0:
-                        Console.Write("Digite o nome do arquivo para salvar: ");
-                        string arquivo = Console.ReadLine();
-                        poligonal.Salvar(arquivo);
-                        Console.WriteLine($"Arquivo salvo como {arquivo}");
+                    case ConsoleKey.S:
+                        
+                        poligonal.Salvar();
                         break;
                 }
             }
