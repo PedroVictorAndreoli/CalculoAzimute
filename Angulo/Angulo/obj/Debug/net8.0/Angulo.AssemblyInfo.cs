@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Angulo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26737cfeb006231411b96f3eeb7c0cc24c060941")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20ef653aecdd438ff4fe2d74e19104bc96254618")]
 [assembly: System.Reflection.AssemblyProductAttribute("Angulo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Angulo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
